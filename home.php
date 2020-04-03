@@ -1,7 +1,3 @@
-<?php include('validation.php'); 
-if (empty($_SESSION['username'])){
-}
-?>
 <?php 
 session_start();
 if(!isset($_SESSION['username'])){
